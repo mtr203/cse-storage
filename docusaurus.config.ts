@@ -107,7 +107,7 @@ const config: Config = {
           label: "blog",
           position: "left",
         },
-                {
+        {
           to: "/blog/tags",
           label: "tags",
           position: "left",
