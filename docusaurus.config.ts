@@ -6,7 +6,7 @@ import type * as Preset from "@docusaurus/preset-classic";
 
 const config: Config = {
   title: "cse storage",
-  tagline: "Dinosaurs are cool",
+  tagline: "cse storage",
   favicon: "img/favicon.ico",
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -57,7 +57,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+            "https://github.com/mtr203/cse-storage",
           // Useful options to enforce blogging best practices
           onInlineTags: "warn",
           onInlineAuthors: "warn",
@@ -92,7 +92,7 @@ const config: Config = {
     navbar: {
       // title: 'saurbytenacity.vn',
       // title: 'minh trieu, truong',
-      title: "cse storage",
+      title: "minh trieu trg | cse storage",
       // title: '',
       logo: {
         alt: "My Site Logo",
@@ -101,24 +101,24 @@ const config: Config = {
       items: [
         {
           to: "/paper-reading/intro",
-          label: "paper reading",
+          label: "paper explained",
           position: "left",
         },
-        {
-          to: "/blog",
-          label: "blog",
-          position: "left",
-        },
-        {
-          to: "/blog/tags",
-          label: "tags",
-          position: "left",
-        },
-        {
-          href: "https://github.com/mtr203",
-          label: "github",
-          position: "right",
-        },
+        // {
+        //   to: "/blog",
+        //   label: "blog",
+        //   position: "left",
+        // },
+        // {
+        //   to: "/blog/tags",
+        //   label: "tags",
+        //   position: "left",
+        // },
+        // {
+        //   href: "https://github.com/mtr203",
+        //   label: "github",
+        //   position: "right",
+        // },
       ],
     },
     footer: {
@@ -134,37 +134,37 @@ const config: Config = {
           ],
         },
         {
-          title: "Community",
+          title: "community",
           items: [
             {
-              label: "Stack Overflow",
-              href: "https://stackoverflow.com/questions/tagged/docusaurus",
+              label: "cilab",
+              href: "https://cilab.dongguk.edu/",
             },
-            {
-              label: "Discord",
-              href: "https://discordapp.com/invite/docusaurus",
-            },
-            {
-              label: "X",
-              href: "https://x.com/docusaurus",
-            },
+            // {
+            //   label: "Discord",
+            //   href: "https://discordapp.com/invite/docusaurus",
+            // },
+            // {
+            //   label: "X",
+            //   href: "https://x.com/docusaurus",
+            // },
           ],
         },
         {
           title: "more",
           items: [
-            {
-              label: "blog",
-              to: "/blog",
-            },
-            {
-              label: "github",
-              href: "https://github.com/mtr203",
-            },
+            // {
+            //   label: "blog",
+            //   to: "/blog",
+            // },
+            // {
+            //   label: "github",
+            //   href: "https://github.com/mtr203",
+            // },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} cse storage. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} minh trieu trg. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,
